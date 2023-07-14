@@ -1,0 +1,174 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(115deg, rgba(170, 103, 31, 0.8), rgba(206, 179, 136, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    max-width: 720px;
+    flex-flow: column wrap;
+    margin-right: 17px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.div-header {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.div-form {
+    background-color: rgba(78, 10, 10, 0.758);
+    padding-top: 20px;
+    border-radius: 5px;
+
+}
+
+.form-group {
+    display: flexbox;
+    flex-flow: column wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+input {
+    width: 98%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    display: flex;
+    color: #000000;
+    outline: none;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    height: 35px;
+}
+
+input::placeholder {
+    color: #515151;
+    font-weight: 400;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    box-shadow: 0 0 1px 3px #315bff;
+}
+
+select {
+    width: 99.9%;
+    height: 35px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+    color: #000000;
+    outline: none;
+    font-weight: 600;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 25px;
+    border-radius: 100%;
+}
+
+span {
+    margin-left: 5px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+small {
+    padding-left: 10px;
+}
+
+textarea {
+    outline: none;
+    min-width: 98%;
+    max-width: 98%;
+    border: none;
+    border-radius: 5px;
+    width: 99%;
+    min-height: 100px;
+    max-height: 300px;
+    height: 100px;
+    color: #000000;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+textarea::placeholder {
+    color: #515151;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #315bff;
+    box-shadow: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#success {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#btn-voltar {
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #315bff;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
